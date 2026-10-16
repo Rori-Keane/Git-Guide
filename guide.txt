@@ -1,0 +1,66 @@
+1. Init
+
+Initialized a new repository by creating a hidden folder that sets up 
+the structure of the repository, alongside some features like tracking changes and 
+managing versions.
+
+Example: "git init" initialises the repository
+
+2. Add
+
+Locally adds changes in the working directory to the staging area (sometimes called the index).
+
+Example: "git add README.md" adds the README file to the staging area
+
+3. Status
+
+Displays the current state of the working directory and staging area, including any 
+changes that were or weren't staged, and files that aren't being tracked by Git.
+
+Example: "git status" shows current status of working directory and staging area
+
+4. Commit
+
+Commits the staging area onto the repository. This is used once all necessary work for the commit
+is done, and the "add" command has been used to add the work onto the staging area. 
+This can be reverted.
+
+Example: "git commit -m "Message"" commits changes to staging area with custom message attached
+
+5. Remote
+
+Used to manage remote repositories. This includes things like renaming, removing, adding, etc.
+
+Example: "git remote add <name> <url>" adds a new git remote using the given name and URL
+
+6. Push
+
+Pushes the changes made locally through "commit" to reflect online on GitHub.
+
+"git push origin <branch name>" pushes the changes to the specified branch e.g. "main" or "master"
+
+7. Branch
+
+Command used for managing branches, including creating new ones, switching between 
+existing ones, renaming them and deleting them.
+
+Example "git branch" lists all local branches + highlights current branch with "*"
+
+8. Checkout
+
+Used to do things like restore files and commits or switch branches in the working 
+directory.
+
+Example: "git checkout -b new-branch" creates a new branch and then switches to it
+
+9. Merge
+
+Integrates changes from two branches together to create a singular unified branch.
+
+Example: "git merge main -m "Message"" merges main branch and leaves a custom message
+
+10. Log
+
+Displays recent commits in a repository.
+
+Example: "git log -n 3" shows the last 3 commits
