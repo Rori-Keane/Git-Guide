@@ -58,3 +58,9 @@ Example: "git checkout -b new-branch" creates a new branch and then switches to 
 Integrates changes from two branches together to create a singular unified branch.
 
 Example: "git merge main -m "Message"" merges main branch and leaves a custom message
+
+10. Log
+
+Displays recent commits in a repository.
+
+Example: "git log -n 3" shows the last 3 commits
