@@ -52,3 +52,9 @@ Used to do things like restore files and commits or switch branches in the worki
 directory.
 
 Example: "git checkout -b new-branch" creates a new branch and then switches to it
+
+9. Merge
+
+Integrates changes from two branches together to create a singular unified branch.
+
+Example: "git merge main -m "Message"" merges main branch and leaves a custom message
