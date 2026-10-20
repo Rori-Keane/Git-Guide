@@ -38,3 +38,10 @@ Example: "git remote add <name> <url>" adds a new git remote using the given nam
 Pushes the changes made locally through "commit" to reflect online on GitHub.
 
 Example: "git push origin <branch name>" pushes the changes to the specified branch e.g. "main" or "master"
+
+7. Branch
+
+Command used for managing branches, including creating new ones, switching between 
+existing ones, renaming them and deleting them.
+
+Example: "git branch" lists all local branches + highlights current branch with "*"
