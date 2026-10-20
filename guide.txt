@@ -3,3 +3,11 @@
 Initialized a new repository by creating a hidden folder that sets up 
 the structure of the repository, alongside some features like tracking changes and 
 managing versions.
+
+Example: "git init" initialises the repository
+
+2. Add
+
+Locally adds changes in the working directory to the staging area (sometimes called the index).
+
+Example: "git add README.md" adds the README file to the staging area
