@@ -11,3 +11,10 @@ Example: "git init" initialises the repository
 Locally adds changes in the working directory to the staging area (sometimes called the index).
 
 Example: "git add README.md" adds the README file to the staging area
+
+3. Status
+
+Displays the current state of the working directory and staging area, including any 
+changes that were or weren't staged, and files that aren't being tracked by Git.
+
+Example: "git status" shows current status of working directory and staging area
