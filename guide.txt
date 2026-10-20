@@ -26,3 +26,9 @@ is done, and the "add" command has been used to add the work onto the staging ar
 This can be reverted.
 
 Example: "git commit -m "Message"" commits changes to staging area with custom message attached
+
+5. Remote
+
+Used to manage remote repositories. This includes things like renaming, removing, adding, etc.
+
+Example: "git remote add <name> <url>" adds a new git remote using the given name and URL
