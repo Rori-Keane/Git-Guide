@@ -32,3 +32,9 @@ Example: "git commit -m "Message"" commits changes to staging area with custom m
 Used to manage remote repositories. This includes things like renaming, removing, adding, etc.
 
 Example: "git remote add <name> <url>" adds a new git remote using the given name and URL
+
+6. Push
+
+Pushes the changes made locally through "commit" to reflect online on GitHub.
+
+Example: "git push origin <branch name>" pushes the changes to the specified branch e.g. "main" or "master"
