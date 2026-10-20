@@ -18,3 +18,11 @@ Displays the current state of the working directory and staging area, including 
 changes that were or weren't staged, and files that aren't being tracked by Git.
 
 Example: "git status" shows current status of working directory and staging area
+
+4. Commit
+
+Commits the staging area onto the repository. This is used once all necessary work for the commit
+is done, and the "add" command has been used to add the work onto the staging area. 
+This can be reverted.
+
+Example: "git commit -m "Message"" commits changes to staging area with custom message attached
